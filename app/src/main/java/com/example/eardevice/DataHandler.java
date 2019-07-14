@@ -7,7 +7,7 @@ import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
 
-@Database(entities = {SensorData.class}, version = 1)
+@Database(entities = {SensorData.class}, version = 2)
 public abstract class DataHandler extends RoomDatabase {
     public abstract SensorDataDAO getSensorDataDAO();
 

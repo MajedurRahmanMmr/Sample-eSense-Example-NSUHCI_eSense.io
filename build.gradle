@@ -1,6 +1,14 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
+    ext {
+        roomVersion = '1.1.1'
+        archLifecycleVersion = '1.1.1'
+
+
+
+    }
+
     repositories {
         google()
         jcenter()
@@ -8,7 +16,7 @@ buildscript {
         flatDir {
             dirs 'libs'
         }
-        
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.4.0'
